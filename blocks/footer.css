@@ -7,16 +7,13 @@
 .footer__content {
   margin: 0;
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .footer__logo {
   width: 105px;
   height: 39px;
-  position: absolute;
-  top: 60px;
-  left: 80px;
 }
 
 .footer__social-heading {
@@ -39,6 +36,7 @@
 .footer__social-link {
   transition: color 0.5s linear;
   color: #fff;
+  text-decoration: none;
 }
 
 .footer__social-link:hover {
