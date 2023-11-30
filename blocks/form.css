@@ -54,6 +54,14 @@
   height: 20px;
   box-sizing: border-box;
   margin-right: 12px;
+  appearance: none;
+  border: 2px gray solid;
+  background-color: #fff;
+}
+
+.form__checkbox:checked {
+  background: #2f71e5 url(../images/check.svg) no-repeat center;
+  background-size: 60%;
 }
 
 .form__label_type_checkbox {

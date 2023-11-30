@@ -13,4 +13,4 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Try doing the icon replacement later on.
+Make the site responsive. Import fonts instead of linking them.
